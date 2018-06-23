@@ -1,0 +1,32 @@
+.header{
+  height: 50px ;
+  background-color: #99bbff;
+}
+
+p{
+ position: relative;
+ font-size: 25px;
+ color: #2E2CBD;
+ margin-right: 50%;
+}
+.headerActions{
+  float: right;
+  margin-top: -45px;
+}
+
+.headerbtn{
+  color: #fff;
+  background-color: #99bbff;
+  min-width: 88px;
+  border: 2px solid #99bbff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  display: inline-block;
+}
+
+.headerbtn:hover{
+  background-color: #2E2CBD;
+}
