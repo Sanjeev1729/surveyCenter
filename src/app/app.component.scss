@@ -1,9 +1,14 @@
+#headerContainer{
+    position: relative
+}
 h4{
     margin-left: 50%;
     margin-right: 50%;
 }
 .view{
    background-color: #f2f2f2;
+   align-content: center;
+   text-align: center
 }
 #formView{
     background-color: white;
@@ -16,4 +21,71 @@ p{
    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
    color: black;
    font-size: 25px;
+}
+.inputText{
+      width: 50%;
+      padding: 12px 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      height: 40px;
+      margin-left: 8%;
+}
+#email{
+   margin-right: 39%;  
+}
+#pwd{
+    margin-right: 37%;
+    margin-top: 10px;
+}
+#confirmpwd{
+    margin-right: 33%;
+    margin-top: 10px;
+}
+#username{
+    margin-right: 36%;
+    margin-top: 1%;
+}
+#dob{
+    margin-right: 35%;
+    margin-top: 1%;
+}
+#widgets{
+   margin-right: 29%;
+   border-radius: 4px;
+   border : 8px;
+   margin-top: 1%;
+   padding: 3px 0px;
+   border-color: #ccc
+}
+#gender{
+    margin-right: 38%;
+    margin-top: 2%;
+}
+.selector{
+    width: 500dp;
+    margin-right: 37%;
+}
+#submit{
+    margin-top: 10px;
+    margin-bottom: 100%;
+    height: 500dp;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    border:2px solid #99bbff;
+}
+#submit:hover{
+    background-color: #99bbff;
+    color: white;
+}
+h6{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
 }

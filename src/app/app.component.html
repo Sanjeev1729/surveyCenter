@@ -10,10 +10,33 @@
         <app-footer></app-footer>
        </div> 
        <div class="view">
-           <p>Register</p>
-          <div id="formView">
-          
-          </div>                    
+           <p>Register</p>  
+           <h6>The email id you entered already exists</h6>   
+           <form [formGroup] = "angularForm">
+             <label id="email">Email</label><br/>
+             <input class = "inputText" formcontrollername = name  type="text"  placeholder = "Enter Name"><br/>
+             <label id= "pwd">Password</label><br/> 
+             <input class = "inputText" formcontrollername = password  type="password"  placeholder="Enter Password"><br/>
+             <label id = "confirmpwd">Confirm Password</label><br/>
+             <input class = "inputText" formcontrollername = confirmpwd type = "password" placeholder = "Re-Enter Password"><br/>
+             <label id = "username">Username</label><br/>
+             <input class = "inputText" formcontrollername = username type = "text" placeholder="Username"><br/>
+            <label id = "dob">Date Of Birth</label><br/>
+            <div id = "widgets">
+            <input id = "datewidget" formcontrollername = dob type = "date"><br/> 
+            </div>
+            <label id = "gender">Gender</label><br/>
+            <div class = "selector">
+               <select>
+                   <option value = "--">--</option>
+                   <option value = "male">Male</option>
+                   <option value = "female">Female</option>
+               </select> 
+            </div>
+            <input type = "checkbox" name = "termsCond">I agree to term and conditions<br/><br/>
+            <button id ="submit">Submit</button>
+            <div id = "space"></div>
+        </form>             
       </div>
     </body>
 </html>
